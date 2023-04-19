@@ -19,16 +19,40 @@ h1, h2, h3, h4, h5,a , body {
     padding: 20px 10px 20px 10px;
 }
 
-input[type="email"] {
+input[type="email"], input[type="text"] {
     background-color: blue;
     padding: 5px 15px 5px 15px;
     font-size: 12px;
     border: 1px solid snow;
     border-radius: 5px;
     color: snow;
+    width: 100%;
+    margin-right: 5px ;
+    margin-top: 5px;
+    max-width: 250px;
+
+    display: flex;
+    flex: 1;
+}
+
+input[tupe="submit"] {
+    border-radius: 5px ;
+    background-color: blue;
+    color: snow;
+    border: 1px solid snow;
 }
 
 input[placeholder] ::placeholder {
     color: snow;
     -webkit-input-placeholder: snow;
+}
+
+from {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@font-face  {
+    font-family: "cabana.ttf";
+    scr: url(/style/cabana.ttf)
 }
